@@ -1,5 +1,5 @@
 # Bizcocho de chocolate
-a la manera de Ana María
+a la manera de Sonia
 
 ## info  
 * 20 minutes  

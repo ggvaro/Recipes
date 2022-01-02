@@ -9,8 +9,7 @@ Optional subheader
 * 
 
 ## steps  
-1.
-2. 
+1. 
 
 ## notes  
 * 

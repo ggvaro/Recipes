@@ -77,7 +77,7 @@ $(document).ready(function() {
 
       // opt: remove cruft from 'based on' links
       if (shortenURLs) {
-        $('#basedon a').each( function() {
+        $('#basado en').each( function() {
           let url = $(this).text();
           url = getDomain(url);
           $(this).text(url);
@@ -86,7 +86,7 @@ $(document).ready(function() {
 
       // in the ingredients, make things in parentheses a
       // bit lighter
-      $('#ingredients li').each( function() {
+      $('#ingredientes li').each( function() {
         let str = $(this).text();
         str = str.replace(/\(([^)]+)\)/g, '<span class="paren">($1)</span>');
         $(this).html(str);
@@ -95,7 +95,7 @@ $(document).ready(function() {
       // in info, add labels to time/quantity
       let time =  $('#info li:eq(0)');
       let makes = $('#info li:eq(1)');
-      $('#info ul').html('<li><span id="time">TIME </span>' + time.text() + '</li><li><span id="makes">MAKES </span>' + makes.text() + '</li>');
+      $('#info ul').html('<li><span id="time">TIEMPO   </span>' + time.text() + '</li><li><span id="makes">PORCIONES    </span>' + makes.text() + '</li>');
 
       // link icon svg code
       // via: https://fontawesome.com/icons/external-link-alt
@@ -106,7 +106,7 @@ $(document).ready(function() {
       // add some helper links
       let recipeName = $('h1').text().toLowerCase();
       recipeName = recipeName.replace(' ', '+');
-      let help = '<h2>help!</h2>';
+      let help = '<h2>Ayuda</h2>';
       help += '<ul>';
       for (let j in helpUrls) {
         let label = helpUrls[j].label;
@@ -117,7 +117,7 @@ $(document).ready(function() {
       $('#help').html(help);
 
       // click a step to highlight it
-      $('#steps li').click( function() {
+      $('#pasos li').click( function() {
         if ( $(this).hasClass('highlight') ) {
           $(this).removeClass('highlight');
         }

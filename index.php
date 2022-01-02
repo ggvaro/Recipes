@@ -1,7 +1,7 @@
 <!doctype html>
 <html profile="http://www.w3.org/2005/10/profile">
 	<head>
-		<title>Recipe Book</title>
+		<title>Recetario</title>
 
 		<!-- basics -->
 		<meta charset="UTF-8">
@@ -26,7 +26,7 @@
 			
 			<!-- table of contents -->
 			<section id="toc">
-				<h1 id="mainTitle">Recipe Book</h1>
+				<h1 id="mainTitle">Recetario</h1>
 				<p id="navigation"></p>
 
 				<ul> <!-- your recipes will go here --> </ul>

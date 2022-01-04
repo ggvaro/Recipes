@@ -1,0 +1,38 @@
+<!doctype html>
+<html profile="http://www.w3.org/2005/10/profile">
+	<head>
+		<title>Recetario</title>
+
+		<!-- basics -->
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+		<link rel="icon" type="image/png" href="http://www.jeffreythompson.org/graphics/favicon.png">
+        <script src="https://unpkg.com/tiny-markdown-editor@0.1.4/dist/tiny-mde.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="https://unpkg.com/tiny-markdown-editor@0.1.4/dist/tiny-mde.min.css" />
+
+        
+
+		<!-- jquery -->
+		<!-- loads the recipes and adds the selected one below -->
+		
+	</head>
+
+	<body>
+		<div id="toolbar"></div>
+        <div id="editor"></div>
+        <script type="text/javascript">
+        var tinyMDE = new TinyMDE.Editor({element: 'editor'});
+        var commandBar = new TinyMDE.CommandBar({element: 'toolbar', editor: tinyMDE});
+        </script>
+	
+
+	</body>
+
+	<!-- combo php/js to get all recipes in the folder -->
+
+	
+	<!-- javascript does the rest :) -->
+	<!--script src="utils.js"></script>
+	<script src="list-recipes.js"></script-->
+</html>
+

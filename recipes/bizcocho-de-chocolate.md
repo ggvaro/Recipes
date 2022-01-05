@@ -1,5 +1,5 @@
-# Bizcocho de chocolate
-a la manera de Sonia
+# Tarta de chocolate
+
 
 ## info  
 * 15 minutos  

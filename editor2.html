@@ -37,7 +37,11 @@
 			</section>
 			<section id="editor" style="height:300px; overflow-y:scroll; border:1px solid #c0c0c0" >
 			</section>
-		
+		    <form action="upload.php" method="post" enctype="multipart/form-data">
+				Seleccionar imagen para cargar:
+				<input type="file" name="fileToUpload" id="fileToUpload" value="Busca">
+				<input type="submit" value="Cargar" name="submit">
+			  </form>
 			<!-- footer -->
 			<section id="footer">
 				<ul>

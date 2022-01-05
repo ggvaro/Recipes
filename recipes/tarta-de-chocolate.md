@@ -6,13 +6,13 @@
 * 10 porciones 
 
 ## ingredientes
-200 g galletas tipo Digestive
-100 g Mantequilla a temperatura ambiente
-250 g Chocolate negro para postres
-1 l Leche entera
-2 Cuajada en polvo sobres
-50 g Azúcar
-100 g Chocolate blanco para decorar
+* 200 g galletas tipo Digestive
+* 100 g Mantequilla a temperatura ambiente
+* 250 g Chocolate negro para postres
+* 1 l Leche entera
+* 2 Cuajada en polvo sobres
+* 50 g Azúcar
+* 100 g Chocolate blanco para decorar
 
 ## Pasos
 Para la base:
